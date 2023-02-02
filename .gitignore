@@ -105,3 +105,6 @@ dist
 
 # stupid macos
 .DS_Store
+
+# solid
+.solid
