@@ -9,6 +9,7 @@
 		"dev": "solid-start dev --host --port 5354",
 		"build": "solid-start build",
 		"start": "solid-start start",
+		"test": "vitest",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix"
 	},
@@ -16,16 +17,21 @@
 		"@antfu/eslint-config": "^0.35.1",
 		"@solidjs/meta": "^0.28.2",
 		"@solidjs/router": "^0.7.0",
+		"@solidjs/testing-library": "^0.6.0",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@types/testing-library__jest-dom": "^5.14.5",
 		"@unocss/vite": "^0.49.2",
 		"babel-preset-solid": "^1.6.10",
 		"eslint": "^8.33.0",
+		"jsdom": "^21.1.0",
 		"solid-start": "^0.2.18",
 		"solid-start-node": "^0.2.18",
 		"solid-start-static": "^0.2.18",
 		"typescript": "^4.9.5",
 		"unocss": "^0.49.2",
 		"vite": "^4.0.4",
-		"vite-plugin-solid": "^2.5.0"
+		"vite-plugin-solid": "^2.5.0",
+		"vitest": "^0.28.3"
 	},
 	"dependencies": {
 		"solid-js": "^1.6.10"
