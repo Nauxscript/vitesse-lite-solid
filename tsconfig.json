@@ -12,7 +12,7 @@
     "jsx": "preserve",
     "allowJs": true,
     "strict": true,
-    "types": ["vite/client","solid-start/env", "@testing-library/jest-dom"],
+    "types": ["vite/client","solid-start/env", "@testing-library/jest-dom", "unplugin-icons/types/solid"],
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "baseUrl": "./",
     "paths": {
