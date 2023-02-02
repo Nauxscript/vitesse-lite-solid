@@ -1,9 +1,9 @@
 <h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse-lite-solid</a></b>
+<b>Lightweight version of <a href="https://github.com/nauxsript/vitesse-lite-solid">Vitesse-lite-solid</a></b>
 </h5>
 
 <h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
+<a href="">Live Demo</a> wip...
 </h6>
 
 <br>
