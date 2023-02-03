@@ -3,7 +3,7 @@
 </h5>
 
 <h6 align='center'>
-<a href="">Live Demo</a> wip...
+<a href="https://vitesse-lite-solid.vercel.app/">Live Demo</a>
 </h6>
 
 <br>
