@@ -14,7 +14,7 @@
 
 ## Features
 
-- ⚡️ [Solid](https://github.com/solidjs/solid), [Vite 4](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), ~~[ESBuild](https://github.com/evanw/esbuild)(wip...)~~ - born with fastness
+- ⚡️ [Solid](https://github.com/solidjs/solid), [Vite 4](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing (lack of description)]()
 
