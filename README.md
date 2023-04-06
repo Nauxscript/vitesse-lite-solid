@@ -9,7 +9,7 @@
 <br>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/nauxsript/vitesse-lite-solid/blob/main/README.zh-CN.md">简体中文</a>
+<b>English</b> | <a href="https://github.com/Nauxscript/vitesse-lite-solid/blob/main/README.zh-CN.md">简体中文</a>
 </p>
 
 ## Features
