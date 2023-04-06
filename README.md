@@ -28,4 +28,4 @@
 
 - 🦾 TypeScript, of course
 
-- ~~☁️ Deploy on Netlify, zero-config~~ wip...
+- ️⛰️ Deploy on Vercel, zero-config
