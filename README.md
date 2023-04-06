@@ -22,7 +22,7 @@
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
-- ~~😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)~~ wip...
+- 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 - ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
 

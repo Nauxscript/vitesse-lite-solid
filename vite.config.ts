@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import Solid from 'solid-start/vite'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import { presetAttributify, presetUno } from 'unocss'
+import { presetAttributify, presetIcons, presetUno } from 'unocss'
 // @ts-expect-error - missing types
 import vercelAdapter from 'solid-start-vercel'
 // import staticAdapter from 'solid-start-static'
@@ -17,6 +17,10 @@ export default defineConfig({
       presets: [
         presetUno(),
         presetAttributify(),
+        presetIcons({
+          scale: 1.2,
+          warn: true,
+        }),
       ],
     }),
     AutoImport({
