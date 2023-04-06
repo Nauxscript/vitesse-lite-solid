@@ -3,10 +3,6 @@
 </h5>
 
 <h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">在线 Demo</a>
-</h6>
-
-<h6 align='center'>
 <a href="https://vitesse-lite-solid.vercel.app/">在线 Demo</a>
 </h6>
 
