@@ -13,7 +13,7 @@
 <br>
 
 <p align='center'>
-<a href="https://github.com/Nauxsript/vitesse-lite-solid/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="https://github.com/Nauxscript/vitesse-lite-solid/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
 
 <br>
