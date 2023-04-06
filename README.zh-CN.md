@@ -13,14 +13,14 @@
 <br>
 
 <p align='center'>
-<a href="https://github.com/nauxsript/vitesse-lite-solid/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="https://github.com/Nauxsript/vitesse-lite-solid/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
 
 <br>
 
 ## 特性
 
-- ⚡️ [Solid](https://github.com/solidjs/solid), [Vite 4](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), ~~[ESBuild](https://github.com/evanw/esbuild)(wip...)~~ - 就是快！
+- ⚡️ [Solid](https://github.com/solidjs/solid), [Vite 4](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
 
 - 🗂 [基于文件的路由(缺少描述...)]()
 
@@ -28,10 +28,10 @@
 
 - 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 
-- ~~😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)~~ wip...
+- 😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 - ✅ 使用 [Vitest](http://vitest.dev/) 进行单元和组件测试
 
 - 🦾 TypeScript, 当然
 
-- ~~☁️ 零配置部署 Netlify~~ wip...
+- ⛰️ 零配置部署 Netlify
