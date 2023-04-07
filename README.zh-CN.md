@@ -1,5 +1,5 @@
 <h5 align='center'>
-<b>轻量版的  <a href="https://github.com/nauxsript/vitesse-lite-solid">Vitesse-lite-solid</a></b>
+<b>基于 Vite 的轻量级 Solid 开发模板</b>
 </h5>
 
 <h6 align='center'>
