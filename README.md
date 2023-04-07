@@ -1,5 +1,5 @@
 <h5 align='center'>
-<b>Lightweight and Opinionated Vite Starter Template for Solid</b>
+<b>Lightweight Vite Starter Template for Solid</b>
 </h5>
 
 <h6 align='center'>
