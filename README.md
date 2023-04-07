@@ -1,5 +1,5 @@
 <h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/nauxsript/vitesse-lite-solid">Vitesse-lite-solid</a></b>
+<b>Lightweight and Opinionated Vite Starter Template for Solid</b>
 </h5>
 
 <h6 align='center'>
