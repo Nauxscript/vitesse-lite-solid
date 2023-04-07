@@ -1,3 +1,4 @@
+import path from 'path'
 import { defineConfig } from 'vite'
 import Solid from 'solid-start/vite'
 import UnoCSS from 'unocss/vite'
@@ -8,6 +9,11 @@ import vercelAdapter from 'solid-start-vercel'
 // import staticAdapter from 'solid-start-static'
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      '~/': `${path.resolve(__dirname, 'src')}/`,
+    },
+  },
   plugins: [
     Solid({
       adapter: vercelAdapter(),
