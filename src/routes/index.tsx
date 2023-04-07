@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main px-4 py-10 text-center text-gray-700 dark:text-gray-200>
+    <main px-4 py-10 text-center>
       <div text-4xl>
         <div i-carbon-mountain inline-block=""></div>
       </div>
