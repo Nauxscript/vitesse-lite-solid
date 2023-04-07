@@ -5,7 +5,9 @@ export default function Home() {
       <div text-4xl>
         <div i-carbon-mountain inline-block=""></div>
       </div>
-      <em text-sm opacity-75>Opinionated Vite Starter Template for <a href="" text-gray-700 hover:text-dark decoration-none><strong>Solid</strong></a></em>
+      <p>
+        <em text-sm text-gray-500>Opinionated Vite Starter Template for <a href="https://www.solidjs.com/" text-gray-500 hover:text-dark><strong>Solid</strong></a></em>
+      </p>
       <nav text-xl mt-6 >
         <A href="/">
           <div i-carbon-mountain inline-block="" text-gray hover:text-dark mx-1></div>
