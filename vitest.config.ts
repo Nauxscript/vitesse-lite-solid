@@ -5,13 +5,20 @@ export default defineConfig({
   plugins: [Solid()],
   test: {
     deps: {
-      registerNodeLoader: true,
-      inline: [/solid-js/],
+      optimizer: {
+        web: {
+          include: ["src/**/*.ts", "src/**/*.tsx"]
+        }
+      }
     },
     environment: 'jsdom',
     globals: true,
-    setupFiles: ['node_modules/@testing-library/jest-dom/extend-expect', './setupVitest.js'],
-    transformMode: { web: [/\.[jt]sx?$/] },
+    setupFiles: ['./setupVitest.js'],
+    server: {
+      deps: {
+        inline: [/solid-js/],
+      },
+    },
   },
   // resolve: {
   //   conditions: ['development', 'browser'],
