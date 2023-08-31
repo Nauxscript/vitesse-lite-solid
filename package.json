@@ -3,9 +3,10 @@
 	"type": "module",
 	"packageManager": "pnpm@7.25.0",
 	"engines": {
-		"node": ">=16"
+		"node": ">=18"
 	},
 	"scripts": {
+		"preinstall": "npx only-allow pnpm",
 		"dev": "solid-start dev --host --port 5354",
 		"build": "solid-start build",
 		"start": "solid-start start",
@@ -15,29 +16,28 @@
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^0.41.0",
-		"@iconify-json/carbon": "^1.1.16",
-		"@solidjs/meta": "^0.28.2",
-		"@solidjs/router": "^0.7.0",
-		"@solidjs/testing-library": "^0.6.0",
-		"@testing-library/jest-dom": "^5.16.5",
-		"@types/testing-library__jest-dom": "^5.14.5",
-		"@unocss/preset-icons": "^0.50.6",
-		"@unocss/vite": "^0.49.2",
-		"babel-preset-solid": "^1.6.10",
-		"eslint": "^8.33.0",
+		"@iconify-json/carbon": "^1.1.20",
+		"@solidjs/meta": "^0.28.6",
+		"@solidjs/router": "^0.8.3",
+		"@solidjs/testing-library": "^0.8.4",
+		"@testing-library/jest-dom": "^6.1.2",
+		"@unocss/preset-icons": "^0.55.3",
+		"@unocss/vite": "^0.55.3",
+		"babel-preset-solid": "^1.7.7",
+		"eslint": "^8.48.0",
 		"jsdom": "^22.1.0",
-		"solid-start": "^0.2.18",
-		"solid-start-node": "^0.2.18",
-		"solid-start-static": "^0.2.18",
+		"solid-start": "^0.3.5",
+		"solid-start-node": "^0.3.5",
+		"solid-start-static": "^0.3.5",
 		"solid-start-vercel": "^0.3.5",
 		"typescript": "^5.2.2",
-		"unocss": "^0.49.2",
+		"unocss": "^0.55.3",
 		"unplugin-auto-import": "^0.16.6",
 		"vite": "^4.4.9",
-		"vite-plugin-solid": "^2.6.1",
-		"vitest": "^0.28.3"
+		"vite-plugin-solid": "^2.7.0",
+		"vitest": "^0.34.3"
 	},
-	"dependencies": {	
+	"dependencies": {
 		"solid-js": "^1.7.11"
 	}
 }
