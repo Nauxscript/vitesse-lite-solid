@@ -17,7 +17,7 @@ specifiers:
   solid-start: ^0.2.18
   solid-start-node: ^0.2.18
   solid-start-static: ^0.2.18
-  solid-start-vercel: ^0.2.18
+  solid-start-vercel: ^0.3.5
   typescript: ^4.9.5
   unocss: ^0.49.2
   unplugin-auto-import: ^0.16.6
@@ -44,7 +44,7 @@ devDependencies:
   solid-start: 0.2.18_xrtgasi7w5edbkmrfyuufmbr5m
   solid-start-node: 0.2.18_owk3h2xn6jagkaxmgz4nfdn6fq
   solid-start-static: 0.2.18_owk3h2xn6jagkaxmgz4nfdn6fq
-  solid-start-vercel: 0.2.18_owk3h2xn6jagkaxmgz4nfdn6fq
+  solid-start-vercel: 0.3.5_owk3h2xn6jagkaxmgz4nfdn6fq
   typescript: 4.9.5
   unocss: 0.49.2_vite@4.0.5
   unplugin-auto-import: 0.16.6
@@ -1757,8 +1757,8 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: true
 
-  /@jridgewell/source-map/0.3.2:
-    resolution: {integrity: sha512-m7O9o2uR8k2ObDysZYzdfhb08VuEml5oWGiosa1VdaPZ/A6QyPkAJuwN0Q1lhULOf6B7MtQmHENS743hWtCrgw==}
+  /@jridgewell/source-map/0.3.5:
+    resolution: {integrity: sha512-UTYAUj/wviwdsMfzoSJspJxbkH5o1snzwX0//0ENX1u/55kkZZkcTZP6u9bwKGkv+dkk9at4m1Cpt0uY80kcpQ==}
     dependencies:
       '@jridgewell/gen-mapping': 0.3.2
       '@jridgewell/trace-mapping': 0.3.17
@@ -1840,6 +1840,24 @@ packages:
       rollup: 3.12.1
     dev: true
 
+  /@rollup/plugin-commonjs/24.1.0_rollup@3.28.1:
+    resolution: {integrity: sha512-eSL45hjhCWI0jCCXcNtLVqM5N1JlBGvlFfY0m6oOYnLCJ6N0qEXoZql4sY2MOUArzhH4SA/qBpTxvvZp2Sc+DQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.68.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.4_rollup@3.28.1
+      commondir: 1.0.1
+      estree-walker: 2.0.2
+      glob: 8.1.0
+      is-reference: 1.2.1
+      magic-string: 0.27.0
+      rollup: 3.28.1
+    dev: true
+
   /@rollup/plugin-json/6.0.0_rollup@3.12.1:
     resolution: {integrity: sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==}
     engines: {node: '>=14.0.0'}
@@ -1851,6 +1869,19 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.4_rollup@3.12.1
       rollup: 3.12.1
+    dev: true
+
+  /@rollup/plugin-json/6.0.0_rollup@3.28.1:
+    resolution: {integrity: sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.4_rollup@3.28.1
+      rollup: 3.28.1
     dev: true
 
   /@rollup/plugin-node-resolve/13.3.0_rollup@3.12.1:
@@ -1866,6 +1897,24 @@ packages:
       is-module: 1.0.0
       resolve: 1.22.1
       rollup: 3.12.1
+    dev: true
+
+  /@rollup/plugin-node-resolve/15.2.1_rollup@3.28.1:
+    resolution: {integrity: sha512-nsbUg588+GDSu8/NS8T4UAshO6xeaOfINNuXeVHcKV02LJtoRaM1SiOacClw4kws1SFiNhdLGxlbMY9ga/zs/w==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.78.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.4_rollup@3.28.1
+      '@types/resolve': 1.20.2
+      deepmerge: 4.3.0
+      is-builtin-module: 3.2.1
+      is-module: 1.0.0
+      resolve: 1.22.1
+      rollup: 3.28.1
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@3.12.1:
@@ -1929,6 +1978,21 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
       rollup: 3.12.1
+    dev: true
+
+  /@rollup/pluginutils/5.0.4_rollup@3.28.1:
+    resolution: {integrity: sha512-0KJnIoRI8A+a1dqOYLxH8vBf8bphDmty5QvIm2hqm7oFCFYKCAZWWd2hXgMibaPsNDhI0AtpYfQZJG47pt/k4g==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.0
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+      rollup: 3.28.1
     dev: true
 
   /@sideway/address/4.1.4:
@@ -2113,6 +2177,10 @@ packages:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
       '@types/node': 18.11.18
+    dev: true
+
+  /@types/resolve/1.20.2:
+    resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
   /@types/semver/7.3.13:
@@ -5896,6 +5964,14 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /rollup/3.28.1:
+    resolution: {integrity: sha512-R9OMQmIHJm9znrU3m3cpE8uhN0fGdXiawME7aZIpQqvpS/85+Vt1Hq1/yVIcYfOmaQiHjvXkQAoJukvLpau6Yw==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /route-sort/1.0.0:
     resolution: {integrity: sha512-SFgmvjoIhp5S4iBEDW3XnbT+7PRuZ55oRuNjY+CDB1SGZkyCG9bqQ3/dhaZTctTBYMAvDxd2Uy9dStuaUfgJqQ==}
     engines: {node: '>= 6'}
@@ -6120,21 +6196,21 @@ packages:
       vite: 4.0.5
     dev: true
 
-  /solid-start-vercel/0.2.18_owk3h2xn6jagkaxmgz4nfdn6fq:
-    resolution: {integrity: sha512-RoFUAN02Dr9zrUamVPBYStqKTkFwRAN8umExMiNpG8uk4IycqLp7nWI6enOPupEhX9h3+V86hInZxo9KvU8yvg==}
+  /solid-start-vercel/0.3.5_owk3h2xn6jagkaxmgz4nfdn6fq:
+    resolution: {integrity: sha512-Ho11S2i6+S4AFZRrcTnK+6PcFB0H7gEpwkdygMQtrQn0m8z0UnJFootu63YdRrFuQiHkRJuZCpQLSCk3UpQpdg==}
     peerDependencies:
       solid-start: '*'
       vite: '*'
     dependencies:
-      '@rollup/plugin-commonjs': 24.0.1_rollup@3.12.1
-      '@rollup/plugin-json': 6.0.0_rollup@3.12.1
-      '@rollup/plugin-node-resolve': 13.3.0_rollup@3.12.1
+      '@rollup/plugin-commonjs': 24.1.0_rollup@3.28.1
+      '@rollup/plugin-json': 6.0.0_rollup@3.28.1
+      '@rollup/plugin-node-resolve': 15.2.1_rollup@3.28.1
       '@vercel/nft': 0.22.6
       fast-glob: 3.2.12
       micromatch: 4.0.5
-      rollup: 3.12.1
+      rollup: 3.28.1
       solid-start: 0.2.18_xrtgasi7w5edbkmrfyuufmbr5m
-      terser: 5.16.2
+      terser: 5.19.3
       vite: 4.0.5
     transitivePeerDependencies:
       - encoding
@@ -6393,7 +6469,18 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      '@jridgewell/source-map': 0.3.2
+      '@jridgewell/source-map': 0.3.5
+      acorn: 8.10.0
+      commander: 2.20.3
+      source-map-support: 0.5.21
+    dev: true
+
+  /terser/5.19.3:
+    resolution: {integrity: sha512-pQzJ9UJzM0IgmT4FAtYI6+VqFf0lj/to58AV0Xfgg0Up37RyPG7Al+1cepC6/BVuAxR9oNb41/DL4DEoHJvTdg==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      '@jridgewell/source-map': 0.3.5
       acorn: 8.10.0
       commander: 2.20.3
       source-map-support: 0.5.21
