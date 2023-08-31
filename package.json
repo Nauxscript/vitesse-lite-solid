@@ -6,6 +6,7 @@
 		"node": ">=18"
 	},
 	"scripts": {
+		"preinstall": "npx only-allow pnpm",
 		"dev": "solid-start dev --host --port 5354",
 		"build": "solid-start build",
 		"start": "solid-start start",
