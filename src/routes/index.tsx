@@ -1,4 +1,5 @@
 import { A } from 'solid-start'
+
 export default function Home() {
   return (
     <main px-4 py-10 text-center>

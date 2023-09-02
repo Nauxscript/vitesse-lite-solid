@@ -7,9 +7,9 @@ export default defineConfig({
     deps: {
       optimizer: {
         web: {
-          include: ["src/**/*.ts", "src/**/*.tsx"]
-        }
-      }
+          include: ['src/**/*.ts', 'src/**/*.tsx'],
+        },
+      },
     },
     environment: 'jsdom',
     globals: true,
