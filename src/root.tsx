@@ -4,6 +4,7 @@ import { Suspense } from 'solid-js'
 import { Body, FileRoutes, Head, Html, Meta, Scripts, Title } from 'solid-start'
 import { ErrorBoundary } from 'solid-start/error-boundary'
 import './style.css'
+
 // import 'uno.css'
 import 'virtual:uno.css'
 
