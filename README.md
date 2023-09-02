@@ -16,8 +16,6 @@
 
 - ⚡️ [Solid](https://github.com/solidjs/solid), [Vite 4](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
-- 🗂 [File based routing (lack of description)]()
-
 - 📦 [Components auto importing](./src/components)
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
@@ -29,6 +27,14 @@
 - 🦾 TypeScript, of course
 
 - ️⛰️ Deploy on Vercel, zero-config
+
+- 🧰 Integrated [`solid-start](https://github.com/solidjs/solid-start)，It provides the following features.
+  -  🗂 File based routing
+  -  📚 Supports all rendering modes: SSR \ CSR \ SSG \ Streaming SSR.
+  -  💄 CSS Modules, SASS/SCSS Support
+  -  and much more features...
+
+> Note: This template must use `Node 18` because [`solid-start v0.3.x](https://github.com/solidjs/solid-start) require it.
 
 ## Try it now!
 
