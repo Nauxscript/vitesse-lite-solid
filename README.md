@@ -30,6 +30,8 @@
 
 - ️⛰️ Deploy on Vercel, zero-config
 
+> Note: This template must use `Node 18` because [`solid-start v0.3.x](https://github.com/solidjs/solid-start) require it.
+
 ## Try it now!
 
 ### GitHub Template
