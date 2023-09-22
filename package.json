@@ -29,7 +29,7 @@
     "babel-preset-solid": "^1.7.12",
     "eslint": "^8.49.0",
     "jsdom": "^22.1.0",
-    "solid-start": "^0.3.5",
+    "solid-start": "^0.3.6",
     "solid-start-node": "^0.3.5",
     "solid-start-static": "^0.3.5",
     "solid-start-vercel": "^0.3.5",
