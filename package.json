@@ -27,7 +27,7 @@
     "@unocss/preset-icons": "^0.56.5",
     "@unocss/vite": "^0.56.5",
     "babel-preset-solid": "^1.7.12",
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "jsdom": "^22.1.0",
     "solid-start": "^0.3.6",
     "solid-start-node": "^0.3.6",
