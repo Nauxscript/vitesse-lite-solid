@@ -30,7 +30,7 @@
     "eslint": "^8.51.0",
     "jsdom": "^22.1.0",
     "solid-start": "^0.3.7",
-    "solid-start-node": "^0.3.6",
+    "solid-start-node": "^0.3.7",
     "solid-start-static": "^0.3.6",
     "solid-start-vercel": "^0.3.7",
     "typescript": "^5.2.2",
