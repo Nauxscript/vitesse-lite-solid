@@ -32,7 +32,7 @@
     "solid-start": "^0.3.7",
     "solid-start-node": "^0.3.6",
     "solid-start-static": "^0.3.6",
-    "solid-start-vercel": "^0.3.6",
+    "solid-start-vercel": "^0.3.7",
     "typescript": "^5.2.2",
     "unocss": "^0.56.5",
     "unplugin-auto-import": "^0.16.6",
