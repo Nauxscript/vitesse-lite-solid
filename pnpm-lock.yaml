@@ -25,8 +25,8 @@ devDependencies:
     specifier: ^6.1.4
     version: 6.1.4(vitest@0.34.6)
   '@unocss/preset-icons':
-    specifier: ^0.56.5
-    version: 0.56.5
+    specifier: ^0.57.0
+    version: 0.57.0
   '@unocss/vite':
     specifier: ^0.56.5
     version: 0.56.5(vite@4.5.0)
@@ -1903,19 +1903,6 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
 
-  /@iconify/utils@2.1.10:
-    resolution: {integrity: sha512-0/+5hxjzCZ9RoYpqxnOzbnpQyMdZRuHcMxPJeuX+x/aZkAAD/N4TajDjAPT7LpX+M0bfLExj/p0bbDkUfp0lrg==}
-    dependencies:
-      '@antfu/install-pkg': 0.1.1
-      '@antfu/utils': 0.7.6
-      '@iconify/types': 2.0.0
-      debug: 4.3.4
-      kolorist: 1.8.0
-      local-pkg: 0.4.3
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@iconify/utils@2.1.11:
     resolution: {integrity: sha512-M/w3PkN8zQYXi8N6qK/KhnYMfEbbb6Sk8RZVn8g+Pmmu5ybw177RpsaGwpziyHeUsu4etrexYSWq3rwnIqzYCg==}
     dependencies:
@@ -2623,16 +2610,6 @@ packages:
     resolution: {integrity: sha512-zFjrGCc+nE6Tvghvi2XUraEYU7wZwgR8EeBFqAEzfBPQPQwnPYXA7RQZeBdNo4bGtNOrR9UbzUrcik+OR39KrA==}
     dependencies:
       '@unocss/core': 0.57.0
-    dev: true
-
-  /@unocss/preset-icons@0.56.5:
-    resolution: {integrity: sha512-Pc973z/M7+TsIPRli9xSE+rjzQnX9r0PppTOD5lrD8PqvNSGIrSWZUFDc5NqL09hKHkIdVrDLC+2ouLYqTI7iA==}
-    dependencies:
-      '@iconify/utils': 2.1.10
-      '@unocss/core': 0.56.5
-      ofetch: 1.3.3
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@unocss/preset-icons@0.57.0:
