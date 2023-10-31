@@ -15,7 +15,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "solid-js": "^1.8.4"
+    "solid-js": "^1.8.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.43.1",
