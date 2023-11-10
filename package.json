@@ -34,7 +34,7 @@
     "solid-start-static": "^0.3.10",
     "solid-start-vercel": "^0.3.10",
     "typescript": "^5.2.2",
-    "unocss": "^0.57.2",
+    "unocss": "^0.57.3",
     "unplugin-auto-import": "^0.16.7",
     "vite": "^4.5.0",
     "vite-plugin-solid": "^2.7.2",
