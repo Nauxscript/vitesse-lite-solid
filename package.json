@@ -24,7 +24,7 @@
     "@solidjs/router": "^0.8.4",
     "@solidjs/testing-library": "^0.8.4",
     "@testing-library/jest-dom": "^6.1.4",
-    "@unocss/preset-icons": "^0.57.2",
+    "@unocss/preset-icons": "^0.57.3",
     "@unocss/vite": "^0.57.3",
     "babel-preset-solid": "^1.8.4",
     "eslint": "^8.53.0",
