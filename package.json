@@ -25,7 +25,7 @@
     "@solidjs/testing-library": "^0.8.4",
     "@testing-library/jest-dom": "^6.1.4",
     "@unocss/preset-icons": "^0.57.2",
-    "@unocss/vite": "^0.57.2",
+    "@unocss/vite": "^0.57.3",
     "babel-preset-solid": "^1.8.4",
     "eslint": "^8.53.0",
     "jsdom": "^22.1.0",
