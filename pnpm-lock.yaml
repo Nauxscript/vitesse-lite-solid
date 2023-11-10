@@ -25,8 +25,8 @@ devDependencies:
     specifier: ^6.1.4
     version: 6.1.4(vitest@0.34.6)
   '@unocss/preset-icons':
-    specifier: ^0.57.2
-    version: 0.57.2
+    specifier: ^0.57.3
+    version: 0.57.3
   '@unocss/vite':
     specifier: ^0.57.3
     version: 0.57.3(vite@4.5.0)
@@ -2456,10 +2456,6 @@ packages:
       unconfig: 0.3.11
     dev: true
 
-  /@unocss/core@0.57.2:
-    resolution: {integrity: sha512-iTmowhObigxeqcxtEW4v+mAEQtFslifTG0Fiw8kXs3+t4L6fcnjj0i7/FtBbz+nOxrWyt2EzdkUyjpLGQa/yCw==}
-    dev: true
-
   /@unocss/core@0.57.3:
     resolution: {integrity: sha512-o6snDo5vwAenIqA+wjjI6BUsftJXXSqrPHYqplb+QX5bLfxW/OU1xhBRlnhiP0BOGGZXqgGEETU1ym8MM9bLwA==}
     dev: true
@@ -2496,16 +2492,6 @@ packages:
     resolution: {integrity: sha512-leX9jxM2PnqvZn42thDb2rPdE0nq6WtIr98pvdnkRZKt5gLwtOJCANXH/gVP6tPdRRf6FiZstA8jvAxVGL1sIA==}
     dependencies:
       '@unocss/core': 0.57.3
-    dev: true
-
-  /@unocss/preset-icons@0.57.2:
-    resolution: {integrity: sha512-LlKt83+QLVvbeCCOetq20t5iUnFA+8nIL4mc1bscdK0nyVqspkZkcM8F6uqRwHcMitEbReq1K5kS99qzwUieVQ==}
-    dependencies:
-      '@iconify/utils': 2.1.11
-      '@unocss/core': 0.57.2
-      ofetch: 1.3.3
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@unocss/preset-icons@0.57.3:
