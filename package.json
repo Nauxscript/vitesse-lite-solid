@@ -18,7 +18,7 @@
     "solid-js": "^1.8.6"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.1.0",
+    "@antfu/eslint-config": "^2.1.1",
     "@iconify-json/carbon": "^1.1.22",
     "@solidjs/meta": "^0.28.7",
     "@solidjs/router": "^0.8.4",
