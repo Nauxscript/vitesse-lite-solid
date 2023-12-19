@@ -10,8 +10,8 @@ devDependencies:
     specifier: ^2.4.6
     version: 2.4.6(eslint@8.56.0)(typescript@5.3.3)(vitest@1.0.4)
   '@iconify-json/carbon':
-    specifier: ^1.1.26
-    version: 1.1.26
+    specifier: ^1.1.27
+    version: 1.1.27
   '@solidjs/meta':
     specifier: ^0.28.7
     version: 0.28.7(solid-js@1.8.7)
@@ -2232,8 +2232,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/carbon@1.1.26:
-    resolution: {integrity: sha512-0y6JstqPCsjEiUuyTTdHE7Wd9gGlxzH2dEfvKUJe5E741qRgLlIipVdBoCkOtbyAT92WEcU8BNfDaC585OCC8w==}
+  /@iconify-json/carbon@1.1.27:
+    resolution: {integrity: sha512-tJVXv9+D9cjU5HcaY+8J0awv9AL/Mjo9MWR/fxHfHFPP/iokjPBEgq4jOBDGNe8W0k/BTrVI3zpgZjLoi6RNGg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
