@@ -28,7 +28,7 @@
     "@unocss/vite": "^0.58.3",
     "babel-preset-solid": "^1.8.9",
     "eslint": "^8.56.0",
-    "jsdom": "^23.2.0",
+    "jsdom": "^24.0.0",
     "solid-start": "^0.3.8",
     "solid-start-node": "^0.3.10",
     "solid-start-static": "^0.3.10",
