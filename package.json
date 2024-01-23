@@ -37,7 +37,7 @@
     "unocss": "^0.58.3",
     "unplugin-auto-import": "^0.17.3",
     "vite": "^4.5.2",
-    "vite-plugin-solid": "^2.8.2",
+    "vite-plugin-solid": "^2.8.3",
     "vitest": "^1.2.1"
   }
 }
