@@ -23,7 +23,7 @@
     "@solidjs/meta": "^0.28.7",
     "@solidjs/router": "^0.8.4",
     "@solidjs/testing-library": "^0.8.5",
-    "@testing-library/jest-dom": "^6.3.0",
+    "@testing-library/jest-dom": "^6.4.0",
     "@unocss/preset-icons": "^0.58.4",
     "@unocss/vite": "^0.58.4",
     "babel-preset-solid": "^1.8.12",
