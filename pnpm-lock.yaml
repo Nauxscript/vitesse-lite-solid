@@ -6788,7 +6788,7 @@ packages:
       solid-start-static: 0.3.10(solid-start@0.3.8)(vite@4.5.2)
       solid-start-vercel: 0.3.10(solid-start@0.3.8)(vite@4.5.2)
       terser: 5.19.3
-      undici: 5.26.3
+      undici: 5.28.3
       vite: 4.5.2
       vite-plugin-inspect: 0.7.38(rollup@3.28.1)(vite@4.5.2)
       vite-plugin-solid: 2.10.1(@testing-library/jest-dom@6.4.2)(solid-js@1.8.15)(vite@4.5.2)
@@ -7112,8 +7112,8 @@ packages:
       mlly: 1.5.0
     dev: true
 
-  /undici@5.26.3:
-    resolution: {integrity: sha512-H7n2zmKEWgOllKkIUkLvFmsJQj062lSm3uA4EYApG8gLuiOM0/go9bIoC3HVaSnfg4xunowDE2i9p8drkXuvDw==}
+  /undici@5.28.3:
+    resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
