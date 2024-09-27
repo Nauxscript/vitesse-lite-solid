@@ -1,4 +1,4 @@
-import Solid from 'solid-start/vite'
+import Solid from 'vite-plugin-solid'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
