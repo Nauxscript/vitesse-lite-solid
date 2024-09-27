@@ -12,7 +12,7 @@
     "jsx": "preserve",
     "allowJs": true,
     "strict": true,
-    "types": ["vite/client", "solid-start/env", "@testing-library/jest-dom", "unplugin-icons/types/solid"],
+    "types": ["vinxi/types/client", "vitest/globals", "@testing-library/jest-dom"],
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "baseUrl": "./",
     "paths": {
@@ -20,6 +20,6 @@
     }
   },
   "types": ["vitest"],
-  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.js", "./**/*.jsx"],
+  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.js", "./**/*.jsx", "src/routes/[..]"],
   "exclude": ["node_modules", "**/node_modules/*", "dist"]
 }
